@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework_06</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wraper">
+		<header class="header">
+			<div class="header__top-panel top-panel">
+				<div class="top-panel__telephone telephone">
+					<ul class="telephone__list">
+						<li class="telephone__item">(044)123-45-67</li>
+						<li class="telephone__item">(044)567-89-10</li>
+					</ul>
+				</div>
+				<div class="top-panel__form-avtoriz form-avtoriz">
+					<form class="form-avtoriz__form" action="#" method="post">
+						<input type="text" name="lastname" placeholder="логин" required>
+						<input type="password" name="password" placeholder="пароль" required>
+						<button type="submit">вход</button>
+					</form>
+					<span class="form-avtoriz__span">|</span>
+					<a class="form-avtoriz__reg" href="#">регистрация</a>
+					<a class="form-avtoriz__forgot" href="#">забыли пароль?</a>	
+				</div>
+				<ul class="top-panel__links links">
+					<li class="links__iten"><a href="#" class="links__link links__link--home"></a></li>
+					<li class="links__iten"><a href="#" class="links__link links__link--map"></a></li>
+					<li class="links__iten"><a href="#" class="links__link links__link--lyst"></a></li>
+				</ul>
+			</div>
+			<div class="header__image"></div>
+		</header>
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__item"><a href="#" class="nav__link">О КОМПАНИ</a></li>
+				<li class="nav__item"><a href="#" class="nav__link">ОПЛАТА</a></li>
+				<li class="nav__item"><a href="#" class="nav__link">ДОСТАВКА</a></li>
+				<li class="nav__item"><a href="#" class="nav__link">СТАТЬИ</a></li>
+				<li class="nav__item"><a href="#" class="nav__link">КОНТАКТЫ</a></li>
+			</ul>
+			<a href="#" class="nav__carts carts">
+				<p class="carts_item">товаров: <span class="carts_span">0</span>на сумму:<span class="carts_span2">0,00 грн.</span></p>
+			</a>
+		</nav>
+		<div class="section">
+			<div class="wrap__find find">
+				<div class="find__avto avto">
+					<h5 class="avto__title"><span class="avto__title--left">Диски:</span>Поиск по автомобилю<span class="avto__title--right">Шины:</span></h5>
+					<div class="form-wraper form-1">
+						<ul class="form-1__list1">
+							<li class="form-1__item1">Марка <span class="form-1__span1">авто:</span>
+							</li>
+							<li class="form-1__item1">Модель<span class="form-1__span1">автомобиля:</span>
+							</li>
+							<li class="form-1__item1">Год выпуска<span class="form-1__span1">автомобиля:</span>
+							</li>
+							<li class="form-1__item1">Комплектация:</li>
+						</ul>
+						<div class="form-1__list2">
+							<select form="fr-a" class="form-1__select form-1__select--W100" name="ma">
+								<option value="audi">Audi</option>
+								<option value="bmv">BMV</option>
+								<option value="opel">Opel</option>
+							</select>
+							<select form="fr-a" class="form-1__select form-1__select--W100" name="mda">
+								<option value="audi_a1">Audi A1</option>
+								<option value="audi_a3">Audi A3</option>
+								<option value="audi_s3">Audi S3</option>
+							</select>
+							<select form="fr-a" class="form-1__select" name="ya">
+								<option value="audi_1982">1982</option>
+								<option value="audi_1999">1999</option>
+								<option value="audi_2001">2001</option>
+							</select>
+							<select form="fr-a" class="form-1__select form-1__select--W100" name="ka">
+								<option value="tr-412">TR-412</option>
+								<option value="tr-412">TR-412S</option>
+								<option value="tr-413">TR-413</option>
+							</select>
+						</div>
+						<ul class="form-1__list1 form-1__list1--padding">
+							<li class="form-1__item1">Марка <span class="form-1__span1">авто:</span>
+							</li>
+							<li class="form-1__item1">Модель<span class="form-1__span1">автомобиля:</span>
+							</li>
+							<li class="form-1__item1">Год выпуска<span class="form-1__span1">автомобиля:</span>
+							</li>
+							<li class="form-1__item1">Комплектация:</li>
+						</ul>
+						<div class="form-1__list2 form-1__list2">
+							<form action="#" id="fr-a">
+								<select class="form-1__select form-1__select--W100" name="sma">
+									<option value="audi">Audi</option>
+									<option value="bmv">BMV</option>
+									<option value="opel">Opel</option>
+								</select>
+								<select class="form-1__select form-1__select--W100" name="smda">
+									<option value="audi_a1">Audi A1</option>
+									<option value="audi_a3">Audi A3</option>
+									<option value="audi_s3">Audi S3</option>
+								</select>
+								<select class="form-1__select" name="sya">
+									<option value="audi_1982">1982</option>
+									<option value="audi_1999">1999</option>
+									<option value="audi_2001">2001</option>
+								</select>
+								<select class="form-1__select form-1__select--W100" name="ska">
+									<option value="tr-412">TR-412</option>
+									<option value="tr-412">TR-412S</option>
+									<option value="tr-413">TR-413</option>
+								</select>
+								<button class="form-1__button" type="submit" name="name">поиск...</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="find__tires"></div>
+				<div class="find__disc"></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="sidebar-left menu">
+				<h3 class="menu__title">Каталог продукции:</h3>
+				<h4 class="menu__category">Шины</h4>
+				<ul class="menu__list">
+					<li><a href="#" class="menu__link">Наименование 1</a></li>
+					<li><a href="#" class="menu__link">Наименование 2</a></li>
+					<li><a href="#" class="menu__link">Наименование 3</a></li>
+					<li><a href="#" class="menu__link">Наименование 4</a></li>
+				</ul>
+				<h4 class="menu__category">Диски</h4>
+				<ul class="menu__list">
+					<li><a href="#" class="menu__link">Наименование 1</a></li>
+					<li><a href="#" class="menu__link">Наименование 2</a></li>
+					<li><a href="#" class="menu__link">Наименование 3</a></li>
+					<li><a href="#" class="menu__link">Наименование 4</a></li>
+				</ul>
+				<h4 class="menu__category">Болты</h4>
+				<ul class="menu__list">
+					<li><a href="#" class="menu__link">Наименование 1</a></li>
+					<li><a href="#" class="menu__link">Наименование 2</a></li>
+					<li><a href="#" class="menu__link">Наименование 3</a></li>
+					<li><a href="#" class="menu__link">Наименование 4</a></li>
+				</ul>
+			</div>
+			<div class="sidebar-content">
+				<div class="boxs">
+					<a href="#" class="boxs__link">
+						<h2 class="box__title">Goodyear</h2>
+						<span class="box__txt">Ultra Grip Extreme</span>
+							<span class="box__img-wrap">
+								<img class="box__img" src="img/Layer-1.jpg" alt="">
+							</span>
+						<p class="box__price">90.00<span class="box__price-s">грн.</span></p>
+					</a>
+					<a href="#" class="boxs__link">
+						<h2 class="box__title">Nokian</h2>
+						<span class="box__txt">Hakkapeliitta R</span>
+							<span class="box__img-wrap">
+								<img class="box__img" src="img/Layer-2.jpg" alt="">
+							</span>
+						<p class="box__price">115.00<span class="box__price-s">грн.</span></p>
+					</a>
+					<a href="#" class="boxs__link">
+						<h2 class="box__title">Hankook</h2>
+						<span class="box__txt">K 708 155/65 R14</span>
+							<span class="box__img-wrap">
+								<img class="box__img" src="img/Layer-3.jpg" alt="">
+							</span>
+						<p class="box__price">393.00<span class="box__price-s">грн.</span></p>
+					</a>
+					<a href="#" class="boxs__link">
+						<h2 class="box__title">Goodyear</h2>
+						<span class="box__txt">Ultra Grip Extreme</span>
+							<span class="box__img-wrap">
+								<img class="box__img" src="img/Layer-1.jpg" alt="">
+							</span>
+						<p class="box__price">90.00<span class="box__price-s">грн.</span></p>
+					</a>
+					<a href="#" class="boxs__link">
+						<h2 class="box__title">Nokian</h2>
+						<span class="box__txt">Hakkapeliitta R</span>
+							<span class="box__img-wrap">
+								<img class="box__img" src="img/Layer-2.jpg" alt="">
+							</span>
+						<p class="box__price">115.00<span class="box__price-s">грн.</span></p>
+					</a>
+					<a href="#" class="boxs__link">
+						<h2 class="box__title">Hankook</h2>
+						<span class="box__txt">K 708 155/65 R14</span>
+							<span class="box__img-wrap">
+								<img class="box__img" src="img/Layer-3.jpg" alt="">
+							</span>
+						<p class="box__price">393.00<span class="box__price-s">грн.</span></p>
+					</a>
+					<a href="#" class="boxs__link">
+						<h2 class="box__title">Goodyear</h2>
+						<span class="box__txt">Ultra Grip Extreme</span>
+							<span class="box__img-wrap">
+								<img class="box__img" src="img/Layer-1.jpg" alt="">
+							</span>
+						<p class="box__price">90.00<span class="box__price-s">грн.</span></p>
+					</a>
+					<a href="#" class="boxs__link">
+						<h2 class="box__title">Nokian</h2>
+						<span class="box__txt">Hakkapeliitta R</span>
+							<span class="box__img-wrap">
+								<img class="box__img" src="img/Layer-2.jpg" alt="">
+							</span>
+						<p class="box__price">115.00<span class="box__price-s">грн.</span></p>
+					</a>
+					<a href="#" class="boxs__link">
+						<h2 class="box__title">Hankook</h2>
+						<span class="box__txt">K 708 155/65 R14</span>
+							<span class="box__img-wrap">
+								<img class="box__img" src="img/Layer-3.jpg" alt="">
+							</span>
+						<p class="box__price">393.00<span class="box__price-s">грн.</span></p>
+					</a>
+				</div>
+			</div>
+			<div class="sidebar-right">
+				<div class="brend">
+					<h3 class="brend__title">Бренды:</h3>
+					<form action="#" method="get">
+						<h4 class="brend__category">Шины</h4>
+						<label class="brend__item"><input type="checkbox" name="s-brend1" value="Бренд 1">Бренд 1</label>
+						<label class="brend__item"><input type="checkbox" name="s-brend2" value="Бренд 2">Бренд 2</label>
+						<label class="brend__item"><input type="checkbox" name="s-brend3" value="Бренд 3">Бренд 3</label>
+						<h4 class="brend__category">Диски</h4>
+						<label class="brend__item"><input type="checkbox" name="c-brend1" value="Бренд 1">Бренд 1</label>
+						<label class="brend__item"><input type="checkbox" name="c-brend2" value="Бренд 2">Бренд 2</label>
+						<label class="brend__item"><input type="checkbox" name="c-brend3" value="Бренд 3">Бренд 3</label>
+						<input type="submit" value="выбрать">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<ul class="brand-logo">
+				<li class="brand-logo__item brand-logo__item--1"></li>
+				<li class="brand-logo__item brand-logo__item--2"></li>
+				<li class="brand-logo__item brand-logo__item--3"></li>
+				<li class="brand-logo__item brand-logo__item--4"></li>
+				<li class="brand-logo__item brand-logo__item--5"></li>
+				<li class="brand-logo__item brand-logo__item--6"></li>
+				<li class="brand-logo__item brand-logo__item--7"></li>
+				<li class="brand-logo__item brand-logo__item--8"></li>
+			</ul>
+		</div>
+		<footer class="footer">
+			<ul class="f-nav">
+				<li class="f-nav__item"><a href="#" class="f-nav__link">О компании</a></li>
+				<li class="f-nav__item"><a href="#" class="f-nav__link">Доставка</a></li>
+				<li class="f-nav__item"><a href="#" class="f-nav__link">Статьи</a></li>
+				<li class="f-nav__item"><a href="#" class="f-nav__link">Контакты</a></li>
+			</ul>
+			<p class="f-copyright">Создание сайта &copy; Global Vision</p>
+		</footer>
+	</div>
+</body>
+</html>
